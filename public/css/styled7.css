@@ -1,0 +1,63 @@
+body{
+    color: grey;
+    font-family: Arial;
+    font-size: 13px;
+    margin: 0%;
+}
+
+
+p{
+    line-height: 20px;
+    letter-spacing: 2px;
+    
+
+}
+strong{
+    color: black;
+}
+
+
+footer p{
+text-align: right;
+padding: 30px;
+}
+a{
+    color: inherit;
+}
+ul{
+    float: right;
+}
+ul li{
+display: inline-block;
+}
+
+nav ul li a{
+   background: #78909c; 
+   text-decoration: none;
+   padding: 8px ;
+   color: white;
+}
+
+nav ul li a:hover{
+color:black;
+
+}
+.logo{
+    width: 80px;
+}
+section{
+    width: 80%;
+    margin: auto;
+    min-height: 50vh;
+}
+footer{
+    background: #263238;
+    height: 200px;
+
+}
+.card{
+    width: 48%;
+    margin: 1%;
+    float: left;
+
+}

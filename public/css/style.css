@@ -1,0 +1,17 @@
+ul{
+    list-style-type:"->"
+}
+
+.summpad{
+    height: 80px;
+
+}
+.row a {
+    font-size: 13px;
+    background: gray;
+    color: seashell;
+
+}
+.row li{
+    padding-bottom: 3px;
+}

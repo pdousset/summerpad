@@ -1,0 +1,55 @@
+/* Css Primer Reto */ 
+
+
+body{
+    font-family:Helvetica;
+    font-size: 15px;
+    background: black;
+}
+
+.card{
+    background-color: rgb(75, 75, 75);
+    border: solid 1px gray ;
+    width: 400px;
+    height: 555px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.divletra{
+    background-color: rgb(34, 34, 34);
+    border: solid 1px gray ;
+    width: 400px; 
+    border-radius: 10px;  
+    padding: 10px 5px 5px 15px;
+    margin-top: 5px;
+}
+
+.negri{
+    color: rgb(62, 62, 114);
+}
+.musicp{
+    color: rgb(173, 152, 231);
+}
+
+.music{
+color: honeydew;
+}
+.estri{
+
+font-style: italic;
+}
+
+p{
+    line-height: 15px;
+    letter-spacing: 2px;    
+    color: rgb(255, 254, 254);
+}
+
+.bb{
+    color: rgb(247, 150, 25);
+}
+
+footer p{
+    color: rgb(82, 51, 51);
+}

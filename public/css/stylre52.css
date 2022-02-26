@@ -1,0 +1,134 @@
+/** HERRAMIENTAS **/
+
+.on{
+    display: inline;
+}
+.off{
+    display: none;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+    background-color: #727272
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background: #E64A19;
+    width: 100vw;
+    height: 10vh;
+}
+
+
+
+/** DIVD MAIN**/
+
+.vacia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between ;
+margin-top: 10px;
+border: solid 2px #BDBDBD;
+border-radius: 30px;
+text-align: center;
+background-color: rgba(255, 87, 34, 0.6);
+color: #FFCCBC;
+padding: 15px;
+min-height: 80vh;
+min-width: 95vw;
+
+}
+.agregar{
+    min-width: 95vw;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+
+}
+
+.sumar{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: solid 2px #BDBDBD;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(255, 87, 34, 0.6);
+    color: #FFCCBC;
+    padding: 15px;
+min-height: 80vh;
+min-width: 95vw;    
+}
+.btn{
+    color: #FFFFFF;
+    border: solid #bdbdbd;
+    background-color: #E64A19;
+    font-size: 20px;
+
+}
+
+
+.listallena{
+    display: none;
+    margin-top: 10px;
+    border: solid 2px #BDBDBD;
+    border-radius: 30px;
+    background-color: rgba(255, 87, 34, 0.6);
+    color: #FFCCBC;
+    padding: 15px;
+    min-width: 95vw;
+}
+
+.infoproducto{
+    display: none;
+    margin-top: 10px;
+    border: solid 2px #BDBDBD;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(255, 87, 34, 0.6);
+    color: #FFCCBC;
+}
+
+
+
+button{
+    border: none;
+    background: none;
+}
+.titulo{
+
+margin: 0 auto;
+font-family: 'Yellowtail', cursive;
+
+}
+
+.logo{
+    height: 80px;
+    padding-right: 10px;
+}
+
+
+
+/** MQ SE ACTIVA PARA PC **/
+@media only screen and (min-width: 1024px){
+.titulo{
+    height: 18VH;
+    
+}
+.principal{
+    height: 83vh;
+}
+.logo{
+    height: 100px;
+}
+
+header h1{
+    font-size: 60px;
+}
+
+}
+

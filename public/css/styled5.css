@@ -1,0 +1,28 @@
+body{
+    color: grey;
+    font-family: Arial;
+    font-size: 13px;
+}
+h1{
+    font-family: 'Times New Roman';
+}
+
+p{
+    line-height: 20px;
+    letter-spacing: 2px;
+    
+
+}
+strong{
+    color: black;
+}
+
+
+footer p:nth-child(3){
+    font-size: 20px;
+text-shadow: 4px 3px 3px;
+text-align: center;
+font-family: 'Indie Flower', cursive;
+}
+
+

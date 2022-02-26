@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botonera Flex</title>
+    <style>
+        .logo{
+            font-size: 30px;
+        }
+        body{
+            margin: 0px;
+        }
+        header{
+            display: flex;
+            background: lightskyblue;
+            justify-content: space-between;
+            align-items: center;
+        }
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        nav{
+            background: magenta;
+            width: 400px;
+        }
+        section {
+            display: flex;
+            height: 90vh;
+        }
+        article{
+            flex-grow: 3;
+            background: chartreuse;
+            order: 1;
+        }
+        aside{
+            flex-grow: 1;
+            background: cornflowerblue;
+            order: 2;
+        }
+        footer{ 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header><a href="../../index.html" class="btn"><img src="../../images/logo.png" alt=""></a>
+        <hr></headER>
+    <header>
+        <a href="" class="logo">🗣</a>
+        <nav>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">SOMOS</a></li>
+                <li><a href="">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <aside>aside</aside>
+        <article>Contenido</article>
+    </section>
+    <footer>Copy 2022 Pablo</footer>
+</body>
+</html>

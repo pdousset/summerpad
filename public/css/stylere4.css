@@ -1,0 +1,75 @@
+body{
+background: #040814 url(../images/ret4back.jpg);
+margin: 0px;
+font-family: "Avenir", sans-serif;
+background-size: 100%;
+    background-repeat: no-repeat;
+    color: silver;
+    font-size: 20px;
+    letter-spacing: .2px;
+}
+
+header{
+    width: 100vw;
+    position: fixed;
+    background: transparent;
+    height: 70px;
+}
+nav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 36px;
+
+}
+
+.inses{
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-align: center;
+    border: solid 1px silver;
+    border-radius: 4px;
+    transition: all 0.2s ease 0s;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    margin: 5px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+
+.inses:hover{
+    transition: all 0.2s ease 0s;
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+}
+
+.combo{ 
+    padding: 5.6vh;   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.divcomb{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 640px;
+    min-height: calc(100vh - 70px);
+    text-align: center;
+    justify-content: start;
+    color: #f9f9f9 ;
+
+}
+.divcomb img{
+    width: 100px;
+}
+
+.center{
+    text-align: center;
+}

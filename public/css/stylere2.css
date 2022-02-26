@@ -1,0 +1,125 @@
+
+/* #a54755 */
+body{
+    background: url(../images/rafva.png) no-repeat center fixed #e72c33;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+/* INICIO HEADER */
+
+header{  
+    display: flex;
+    height: 90px; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    float: right;
+    width: 300px;
+    
+}
+
+header a{
+    color: white;
+    font-size: 55px;
+}
+
+.logo{
+    height: 90px;
+}
+/* FIN HEADER */
+
+/* Sections*/
+
+.splash {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+        }
+
+.splash img{
+    width: 30vh;
+}
+.repro{
+    width: 300px;
+    height: 152px;
+}
+
+
+.caps{
+    color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.epi{
+    background: rgba(180, 12, 12, 0.712);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px;
+    max-width: 270px;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    line-height: 16px;
+}
+
+.epi h1{
+    margin: 5px;
+    line-height: 20px;
+}
+.epi h3{
+    margin: 5px;
+    line-height: 25px;
+}
+
+.btn{
+    text-align: center;
+    color: honeydew;
+    text-decoration: none;
+    background-color: #912125;
+    padding: 2px;
+    border-radius: 5px; 
+    margin-left: 70px;
+    margin-right: 70px; 
+    transition: all .35s ease-in;
+}
+
+
+.btn:hover{
+
+    text-align: center;
+    color: honeydew;
+    text-decoration: none;
+    background-color: rgb(99, 2, 5);
+    padding: 2px;
+    border-radius: 5px;
+    transition: all .35s ease-in;
+}
+
+.fas:hover {
+    color: rgb(109, 2, 2);
+    transition: all .35s ease-in;
+}
+.fab:hover{
+    color: rgb(109, 2, 2);
+    transition: all .35s ease-in;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}

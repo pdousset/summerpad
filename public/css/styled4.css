@@ -1,0 +1,25 @@
+/* 
+section{
+    background: pink;
+}
+footer{ 
+    background: green;
+}
+body{
+    background: grey;
+    color: white;
+}
+
+*/
+
+body{
+    color: grey;
+}
+
+#titulo{
+    color: orange;
+}
+
+.titulo{
+    color: orangered;
+}
