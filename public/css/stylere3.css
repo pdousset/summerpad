@@ -65,10 +65,16 @@ a{
    
 }
 .formulario{
+    height: 43.5px;
+    width: 39%;
+    min-width: 350px;
+    max-width: 584px;
     margin-top: 25px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+
    
 }
 .buscar{
@@ -78,20 +84,15 @@ a{
     margin: 0 auto;
 
 }
-
+i {
+    font-size: 13px;
+    color: #9aa0a6;
+  }
 .btnbusc{
-padding-top: 20px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-width: 300px;
-font-size: 15px;
+
 }
 
-.btnbusc a{
-    color: #3c4043;
-    background-color: #f8f9fa;
-}
+
 
 .btn:hover{
     border: solid 1px rgb(202, 200, 200);
@@ -102,8 +103,18 @@ font-size: 15px;
 }
 
 .btn{
-padding: 10px;
-border: solid 1px transparent;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .bajotxt{
@@ -115,17 +126,21 @@ border: solid 1px transparent;
 .formulario{
     display: flex;
     flex-direction: row;
-    border: 1px solid rgb(204, 202, 202);
+    justify-content: space-around;
     width: 510px;
     height: 43px;
-    border-radius: 20px;
-    justify-content: space-around;
-  
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 43.5px;
+    width: 39%;
+    min-width: 350px;
+    max-width: 584px;
 }
 
 .formulario:hover{
-    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223, 225, 229, 0);
 }
 
 .campo{
