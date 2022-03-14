@@ -41,14 +41,21 @@ header a:hover{
     text-decoration: underline;
 }
 
+
+
 /* texto*/
 a{
     text-decoration: none;
 }
 
-.bus{
-    color: #3c4043;
+.menu:hover + .apps {
+    display: block;
 }
+
+.apps {
+display: none;
+} 
+
 
 .sesion{
     background:#1a73e8 ;
@@ -92,9 +99,6 @@ i {
     font-size: 13px;
     color: #9aa0a6;
   }
-.btnbusc{
-
-}
 
 
 
@@ -169,7 +173,6 @@ i {
 .foolinks{
     display: flex;
     justify-content:space-between;
-    margin-top: -14px;
 }
 
 .foolinks ul{
@@ -190,26 +193,22 @@ section{
     width: 100%;
     min-height: 70vh;
 }
+
 footer{
-    margin: 0px
-    height: 90px;
+    margin: 0px;
     width: 100%; 
     position: fixed;
     bottom: 0;
     color: #70757a;
-    background: #f2f2f2;
     font-size: 15px;
+    background: #f2f2f2;
 }
 
-.menu:hover + .apps {
-        display: block;
-    }
-
-.apps {
-    display: none;
-}    
-
 .arg {
-    border-bottom: solid 1px #dadce0;
-    margin: 0px
+    padding-top: 6px;
+    padding-left: 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: block;
 }
