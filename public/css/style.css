@@ -1,17 +1,117 @@
-ul{
-    list-style-type:"->"
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background: #fafafa;
 }
 
-.summpad{
-    height: 80px;
+header{
+    background: #FFECB3;
+    height: 75px;
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
-.row a {
-    font-size: 13px;
-    background: gray;
-    color: seashell;
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px; 
+    margin-right: 10px;  
+}
+
+header ul li{
+    list-style: none;
+    margin-right: 5px;
+    
+}
+.btn{
+        border-radius: 5px;
+        padding: 5px;
+        background: #607D8B;
+        font-size: 19px;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        color: #FFECB3;
+    }
+.btn2{
+    border-radius: 5px;
+    padding: 10px 75px;
+    background: #607D8B;
+    font-size: 20px;
+    color: #FAFAFA;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn2:hover{ 
+    background: #FFC107;
+}
+.logo{
+    
+    padding: 10px;
+    height: 70px;
+}
+
+section{
+    margin-top: 20px;
 
 }
-.row li{
-    padding-bottom: 3px;
+
+footer{
+    background: #757575;
+    height: 50px;
 }
+
+.summerhack{
+    height:calc(100vh - 75px );
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+.retos{
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+    width: 270px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    line-height: 10px;
+    box-shadow:rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.retos h1{
+    margin: 5px;
+    line-height: 20px;
+}
+.retos h3{
+    margin: 5px;
+    line-height: 25px;
+}
+.retos p{
+    line-height: 20px;
+}
+
+.orden{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width:100vw;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.logosummer{
+
+    height: 90px;
+}
+

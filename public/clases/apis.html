@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Fetch Hora de Aventura</title>
+</head>
+<body>
+    <section class="container">
+        <h1>Personajes de Hora de aventura</h1>
+        <button>Mostrame les pibes</button>
+    <ul class="list-group">
+
+      </ul>
+    </section>
+    <script>
+    let btn = document.querySelector('button');
+    btn.addEventListener('click',()=>{
+
+        fetch('https://adventuretimeapi.herokuapp.com/people').then(res => res.json()).then(res=>{
+            console.log(res)
+            const padre = document.querySelector('ul')
+            for(personajes of res){
+                const modelo = document.createElement('li')
+                modelo.classList.add('list-group-item')
+                modelo.textContent = personajes.fullname
+                padre.appendChild(modelo)
+            }
+        })
+    })
+    </script>
+</body>
+</html>

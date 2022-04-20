@@ -1,75 +1,550 @@
-body{
-background: #040814 url(../images/ret4back.jpg);
-margin: 0px;
-font-family: "Avenir", sans-serif;
-background-size: 100%;
-    background-repeat: no-repeat;
+body {
+    margin: 0px;
+    width: 98.9vw;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: normal;
     color: silver;
-    font-size: 20px;
-    letter-spacing: .2px;
-}
-
-header{
-    width: 100vw;
-    position: fixed;
+    font-weight: 400;
+    background: #040714;
+    display: flex;
+    flex-direction: column;
+  }
+  .center {
+    text-align: center;
+  }
+  .opacidad {
+    opacity: 0.8;
+  }
+  .blanco {
+    color: #f9f9f9;
+  }
+  .subrayado {
+    text-decoration: underline;
+  }
+  .cinco {
+    margin-top: 5px;
+  }
+  h2 {
+    color: #f9f9f9;
+    font-weight: 700px;
+    font-size: 40.65px;
+    line-height: 50px;
+  }
+  h3 {
+    color: #f9f9f9;
+    font-size: 28.65px;
+    line-height: 38px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    letter-spacing: 0.55px;
+  }
+  .mediano {
+    font-size: 19.59px;
+    line-height: 30px;
+    letter-spacing: 0.55px;
+  }
+  .pNormal {
+    font-size: 17.95px;
+    line-height: 28px;
+    font-weight: 400px;
+    letter-spacing: 0.2px;
+  }
+  .pChico {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .boton {
+    padding: 25px 33px;
+    background: #0063e5;
+    text-decoration: none;
+    color: #f9f9f9;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1.2px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+    border-radius: 4px;
+    width: -webkit-fill-available;
+    max-width: 700px;
+    transition: all 0.2s ease 0s;
+    font-size: 17.5px;
+    line-height: 18px;
+  }
+  .boton:hover,
+  .boton:focus {
+    color: #f9f9f9;
+    background: #016cf9;
+    border: none;
+    text-decoration: none;
+  }
+  .boton:active {
+    opacity: 0.7;
+    transform: scale(0.97);
+    transition: 0s;
+  }
+  header {
     background: transparent;
-    height: 70px;
-}
-nav{
+    text-align: end;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: #040714;
+  }
+  nav {
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 0px 36px;
-
-}
-
-.inses{
+    padding: 0px 45px;
+  }
+  nav .boton {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0px;
+    width: 211.43px;
+    height: 50px;
+    max-width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navBoton {
     color: #f9f9f9;
-    letter-spacing: 1px;
-    font-size: 18px;
+    letter-spacing: 1.1px;
+    font-size: 17.95px;
+    line-height: 17.95px;
     text-align: center;
     border: solid 1px silver;
     border-radius: 4px;
     transition: all 0.2s ease 0s;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 8px 16px;
+    padding: 8px 0px;
     margin: 5px;
     height: 32px;
     background-color: rgba(0, 0, 0, 0.8);
-    text-decoration: none;
-}
-
-.inses:hover{
-    transition: all 0.2s ease 0s;
-    background-color: rgba(255, 255, 255, 1);
-    color: black;
-}
-
-.combo{ 
-    padding: 5.6vh;   
+    width: 169.79px;
+  }
+  .navBoton:hover {
+    background-color: #f9f9f9;
+    color: #040714;
+    border-color: transparent;
+  }
+  .navBoton:active {
+    opacity: 0.7;
+    transform: scale(0.97);
+    transition: 0s;
+  }
+  .hero {
+    padding: 5.6vw;
+    height: fit-content;
+    min-height: calc(100vh - 70px);
+    box-sizing: border-box;
+    background: url(../images/fondoHero.jpg);
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-}
-
-.divcomb{
-    display: flex;
-    flex-direction: column;
+    align-items: stretch;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .content {
     width: 50%;
     max-width: 640px;
-    min-height: calc(100vh - 70px);
-    text-align: center;
-    justify-content: start;
-    color: #f9f9f9 ;
-
-}
-.divcomb img{
-    width: 100px;
-}
-
-.center{
-    text-align: center;
-}
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heroImg {
+    width: 400px;
+    height: 163.43px;
+    margin: 0px 0px 37px 0px;
+  }
+  .ars {
+    margin-top: 0px;
+  }
+  .avengers {
+    padding: 5.6vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: fit-content;
+  }
+  .avengersImg {
+    box-sizing: border-box;
+    width: 50%;
+    background: url(../images/mandalorian.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 538px;
+  }
+  .avengersTexto {
+    width: 50%;
+    height: 50vh;
+    padding: 0 2vw;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+  }
+  .avengersTexto h2 {
+    margin-top: 13px;
+    margin-block-end: 24px;
+  }
+  .avengersTexto p {
+    margin-top: 5px;
+  }
+  .combo {
+    padding: 5.6vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: fit-content;
+  
+  }
+  .comboImg {
+    box-sizing: border-box;
+    width: 50%;
+    background: url(../images/deadpool.jfif) center center no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    min-height: 565px;
+  }
+  .comboTexto {
+    width: 50%;
+    height: 100vh;
+    padding: 0 2vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .comboTexto a {
+    box-sizing: border-box;
+    padding: 22.5px 24px;
+    height: 60px;
+    margin-bottom: 20px;
+    max-width: 360px;
+  }
+  .comboTexto p {
+    margin-top: 3px;
+  }
+  .reyLeon {
+    background: url(../images/reyLeon.png) center center no-repeat;
+    background-size: 89%;
+    padding: 5.6vw;
+    box-sizing: border-box;
+    width: 100%;
+    height: 895px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .leonTexto {
+    width: 47.7%;
+    padding: 0;
+  }
+  .on {
+    display: none;
+  }
+  .sectionDisp {
+    width: 100%;
+    padding: 5.6vw 0px;
+    height: max-content;
+  }
+  .sectionDisp h2 {
+    margin-top: 0px;
+    margin-bottom: 35px;
+  }
+  .dispositivos {
+    display: flex;
+    justify-content: center;
+    height: 473px;
+  }
+  .disp {
+    width: 21%;
+    padding: 0px 12px;
+  }
+  .dispImg {
+    height: 175px;
+  }
+  .dispositivos img {
+    width: 100%;
+  }
+  footer {
+    width: (calc 100% - 16px);
+    padding: 26px 8px;
+  }
+  
+  .logoDisney {
+    height: 43.5px;
+    margin: 14px 55px 
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    margin: 4px auto 15px;
+  }
+  .links a {
+    text-decoration: none;
+    padding: 8px 12px;
+  }
+  .footerTexto {
+    margin-bottom: 20px;
+  }
+  footer p {
+    padding: 5px 30px;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    h2 {
+      font-size: 28px;
+      line-height: 38px;
+    }
+    h3 {
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 16px;
+    }
+    .mediano {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .pNormal {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .hero {
+      flex-direction: column;
+      background: url(../images/fondoHeroChico.jfif);
+      background-size: cover;
+      min-height: 70vh;
+      padding: 40vw 5vw 10vw;
+      align-items: center;
+    }
+    .content {
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 600px;
+      height: fit-content;
+    }
+    .heroImg {
+      max-width: 320px;
+      height: auto;
+      margin: 0px 0px 37px 0px;
+    }
+    .boton {
+      padding: 25px 33px;
+    }
+    .avengers {
+      min-height: 70vh;
+      padding: 10vw 5vw;
+    }
+    .avengersImg {
+      height: 75vh;
+      
+    }
+    .combo {
+      min-height: 70vh;
+      height: 400px;
+      padding: 10vw 5vw;
+    }
+    .comboTexto {
+      height: 400px;
+    }
+    .comboImg {
+      height: 400px;
+      min-height: 70vh;
+    }
+    .reyLeon {
+      min-height: 70vh;
+      height: 738px;
+      padding: 10vw 5vw;
+      background-size: 90%;
+    }
+    .leonTexto {
+      padding: 15px 0px 20px 0px;
+    }
+    .dispImg {
+      height: 128px;
+    }
+    .disp {
+      padding: 0px 11px;
+    }
+    .sectionDisp h2 {
+      margin-bottom: 30px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    h2 {
+      font-size: 26px;
+      line-height: 36px;
+    }
+    h3 {
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 16px;
+    }
+    .mediano {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .pNormal {
+      font-size: 15px;
+      line-height: 25px;
+    }
+    .pChico {
+      font-size: 11px;
+      line-height: 21px;
+    }
+    section {
+      padding-left: 0px;
+      padding-right: 0px;
+      *box-sizing: content-box;
+      background-size: cover;
+      height: max-content;
+    }
+    nav {
+      margin-right: 5px;
+      padding: 0 12px 0 20px;
+    }
+    .navBoton {
+      font-size: 15px;
+      line-height: 15px;
+      margin-top: 0px;
+      width: max-content;
+      margin: 0px;
+      padding: 3px 8px;
+      letter-spacing: 1px;
+    }
+    .content {
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 65vw;
+      height: max-content;
+    }
+    .heroImg {
+      max-width: 180px;
+      height: auto;
+      margin: 0px 0px 30px 0px;
+    }
+    .boton {
+      font-size: 15px;
+      line-height: 20px;
+      padding: 14px 20px;
+    }
+    .ars {
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+    .content br {
+      display: none;
+    }
+    .avengers {
+      width: 100%;
+      padding: 10vw 0vw;
+      flex-direction: column;
+    }
+    .avengersImg {
+      width: 90vw;
+      height: 100vh;
+      background-size: 100%;
+    }
+    .avengersTexto {
+      width: 100%;
+      text-align: center;
+      padding: 0vw 7vw;
+      height: fit-content;
+    }
+    .avengersTexto h2 {
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    .combo {
+      flex-direction: column-reverse;
+      height: max-content;
+    }
+    .comboImg {
+      width: 100%;
+      height: 585px;
+    }
+    .comboTexto {
+      width: 90vw;
+      height: max-content;
+      align-items: center;
+      text-align: center;
+    }
+    .comboTexto a {
+      width: 320px;
+      height: 50px;
+      padding-top: 15px;
+    }
+    .comboTexto p {
+      margin-top: 15px;
+    }
+    .reyLeon {
+      background: transparent;
+    }
+    .on {
+      display: block;
+    }
+    .leonImg {
+      width: 100%;
+      height: 550px;
+      background: url(../../images/reyLeonPeque.png) center center no-repeat;
+      background-size: 100%;
+    }
+    .leonTexto {
+      width: 90vw;
+      height: max-content;
+      align-items: center;
+      text-align: center;
+      padding: 0px 2vw;
+    }
+    .sectionDisp {
+      height: max-content;
+      margin: 0px;
+      padding: 22vw 0vw 5vw 0vw;
+    }
+    .dispositivos {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+      height: 910px;
+      justify-content: center;
+      align-items: center;
+    }
+    .disp {
+      box-sizing: border-box;
+      width: 46%;
+      padding: 0px;
+      height: 453px;
+    }
+    .dispImg {
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .dispositivos img {
+      width: 95%;
+      *padding-left: 5px;
+    }
+    .sectionDisp h2 {
+      margin-bottom: 10px;
+    }
+  }
